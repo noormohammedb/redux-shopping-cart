@@ -1,9 +1,11 @@
+import Navbar from "./components/Navbar";
+
 function App() {
   return (
     <>
-      <div>
-        <h1>redux shopping cart</h1>
-      </div>
+      <main>
+        <Navbar />
+      </main>
     </>
   );
 }
